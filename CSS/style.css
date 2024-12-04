@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --primary-color: #24353f;
+  --sec-color: #17a2b8;
+  --third-color: #fff;
+}
+body {
+  background-color: var(--primary-color);
+  font-family: sans-serif;
+}
+.all-data-signIn,
+.all-data-signUp {
+  background-color: #24353f;
+  box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+.title-login {
+  color: var(--sec-color);
+}
+.btns {
+  background: transparent;
+  border: 1px solid var(--sec-color);
+  color: var(--sec-color);
+  transition: 0.3s;
+}
+.btns:hover {
+  color: var(--third-color);
+  background-color: var(--sec-color);
+}
+a {
+  text-decoration: none;
+  transition: 0.3s;
+}
+.have-account a:hover {
+  text-decoration: underline;
+}
+
+.form-control {
+  background-color: transparent;
+  color: white;
+}
+.form-control:focus {
+  box-shadow: none;
+  border-color: #80bdff;
+  outline: 0;
+  background-color: transparent;
+  color: var(--third-color);
+}
+header nav {
+  background-color: var(--primary-color);
+  box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+.btn-logout {
+  color: rgba(255, 255, 255, 0.5);
+}
+.btn-logout:hover{
+  color: var(--third-color);
+}
+.welcome-msg{
+  box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+h1{
+  color: var(--sec-color);
+}

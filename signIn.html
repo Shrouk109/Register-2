@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Sign in</title>
+        <link rel="stylesheet" href="CSS/all.min.css">
+        <link rel="stylesheet" href="CSS/bootstrap.min.css">
+        <link rel="stylesheet" href="CSS/style.css" />
+    </head>
+
+    <body>
+
+        <section class="login-system w-75 mx-auto">
+            <div class="container">
+                <div class="all-data-signIn mt-5 text-center p-5">
+                    <h1 class="mb-4 title-login">Smart Login System</h1>
+                    <input class="my-3 form-control" type="email" name="email"  id="email-login"
+                        placeholder="Enter your email">
+                        <p class="email-error-login text-danger"></p>
+                    <input class="my-3 form-control" type="password" name="pass" id="password-login"
+                        placeholder="Enter your password">
+                        <p class="pass-error-login text-danger"></p>
+
+                    <button class="btns d-block w-100 py-2 my-3 rounded" id="loginBtn">Login</button>
+
+                    <p class="done text-success d-none"></p>
+
+
+                    <p class="have-account text-white">Don’t have an account? <a href="#"
+                            class="go-to-signup text-white ">Sign Up</a></p>
+                </div>
+
+            </div>
+        </section>
+
+        <script src="JS/bootstrap.bundle.min.js"></script>
+        <script src="JS/script.js"></script>
+    </body>
+
+</html>
